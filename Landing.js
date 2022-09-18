@@ -2,6 +2,7 @@ import React from 'react'
 
 import { GetLadybugs } from '../Utils/getLadybugs'
 import { DisplayContent } from './DisplayContent/DisplayContent'
+
 var ladybugNames = [];
 var ladybugFull = [];
 var ladybugDescription = [];
@@ -30,8 +31,14 @@ export const Landing = () => {
                 ladybugFull[bug.name].c = bug.description;
             }            
         });
-        // console.log(ladybugFull);
-        // console.log("image", ladybugImage);
+
+        // var fs = require('fs');
+        // fs.writeFile('write.JSON', ladybugFull, function (err) {
+        // if (err) throw err;
+        // console.log('Created new file with JSON data!');
+        // });
+
+
     }
 
     return (
