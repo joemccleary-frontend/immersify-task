@@ -1,0 +1,195 @@
+/**** Immersify Web Platform Common Styles******/
+/********* Common **********/
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.form-check {
+    margin-bottom: 5px;
+}
+.form-check .form-check-input:checked {
+    background-color: #3063cc;
+    border-color: #3063cc;
+}
+.form-check .form-check-input {
+    border-radius: 2px;
+    height: 1.3rem;
+    width: 1.3rem;
+    box-shadow: none;
+}
+.form-check label {
+    margin-top: 4px;
+    margin-left: 5px;
+    font-size: 14px;
+    color: #919191;
+}
+
+.form-group .form-control {
+    height: 47px;
+    color: #919191;
+    font-size: 14px;
+}
+.form-group .form-control.name:valid,
+.form-group .form-control.email:valid,
+.form-group .form-control.pwd:valid {
+    border-color: #3063cc;
+}
+.form-group .form-control:focus {
+    border-color: #3063cc;
+    outline: none !important;
+    box-shadow: none;
+}
+.form-group ::-moz-placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #919191;
+    opacity: 1; /* Firefox */
+    font-size: 14px;
+}
+.form-group :-ms-input-placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #919191;
+    opacity: 1; /* Firefox */
+    font-size: 14px;
+}
+.form-group ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #919191;
+    opacity: 1; /* Firefox */
+    font-size: 14px;
+}
+.form-group :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #919191;
+    font-size: 14px;
+}
+.form-group ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #919191;
+    font-size: 14px;
+}
+
+.dropdown .dropdown-toggle {
+    font-size: 14px;
+    color: #aeaeae;
+}
+
+.btn_underline {
+    font-size: 16px;
+    color: #3063cc;
+    border-bottom: 1px solid #3063cc;
+}
+.btn_underline:hover {
+    color: #5089fa;
+    border-color: #5089fa;
+}
+
+.btn_grey {
+    background: #cbcbcb;
+    border: none;
+    height: 45px;
+    padding: 10px 25px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 470;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.btn_readmore {
+    display: inline-block;
+    padding: 0;
+    color: #3063cc;
+}
+
+.btn_common {
+    background: #3063cc;
+    border: none;
+    height: 45px;
+    padding: 10px 25px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 470;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background-position: center;
+    transition: background 0.8s;
+}
+.btn_common:hover {
+    background: #5089fa radial-gradient(circle, transparent 1%, #5089fa 1%)
+        center/14700%;
+}
+.btn_common:active {
+    background-color: #77a3fa;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+button,
+a {
+    transition: 0.2s all ease;
+    text-decoration: none;
+}
+
+.main_area {
+    padding-left: 250px;
+    padding-top: 96px;
+    min-height: 100vh;
+    background-color: #f7f8fa;
+    transition: 0.4s all ease;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.main_topics {
+    padding-top: 75px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/********* Common **********/
+/***** Error Page ****/
+.mx-50 {
+    max-width: 140px;
+    margin: 15px auto;
+}
+
+.error_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+.error_block h3 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #202020;
+    margin-top: 30px;
+}
+.error_block h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #28ad4e;
+    margin-top: 20px;
+}
+.error_block p {
+    font-size: 16px;
+    color: #7c7c7c;
+    text-align: center;
+}
+.error_block .error_txt {
+    text-align: center;
+}
+
+/***** Error Page ****/

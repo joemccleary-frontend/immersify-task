@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.446b0ef8.css",
+    "main.js": "/static/js/main.dfbc971e.js",
+    "static/media/immersify_logo.svg": "/static/media/immersify_logo.7f4e3fc86dfc11d47293ce0aa97dde77.svg",
+    "static/media/bg_login.png": "/static/media/bg_login.964cbc37a4d90d47796d.png",
+    "static/media/logo_anim.gif": "/static/media/logo_anim.4efba95b50b8253e8fa0.gif",
+    "static/media/Biofilm.png": "/static/media/Biofilm.d8344807c02823e35a47.png",
+    "static/media/Classification.png": "/static/media/Classification.dd138f8429902bea12f4.png",
+    "static/media/icomoon.svg?b1o14u": "/static/media/icomoon.c3bd95face6cc00641af.svg",
+    "static/media/icomoon.eot": "/static/media/icomoon.646edaf1ae099bd32c60.eot",
+    "static/media/icomoon.woff": "/static/media/icomoon.2cf01364b51924ffdb49.woff",
+    "static/media/icomoon.ttf": "/static/media/icomoon.6079b39992fa9137a17e.ttf",
+    "static/media/password.svg": "/static/media/password.5be5b0db02e2e09e6d3b145a3adf02d6.svg",
+    "static/media/apple.svg": "/static/media/apple.44c9895f79c107e1510d0d9434004dff.svg",
+    "static/media/premium.svg": "/static/media/premium.b77f42bf0bcab20e41e0.svg",
+    "index.html": "/index.html",
+    "static/media/shape_1.svg": "/static/media/shape_1.f45abdd7da1e72ec6d5995d9348195cb.svg",
+    "static/media/close_btn.svg": "/static/media/close_btn.fbaaddfdd0d64c798997c4798a4212bd.svg",
+    "main.446b0ef8.css.map": "/static/css/main.446b0ef8.css.map",
+    "main.dfbc971e.js.map": "/static/js/main.dfbc971e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.446b0ef8.css",
+    "static/js/main.dfbc971e.js"
+  ]
+}
