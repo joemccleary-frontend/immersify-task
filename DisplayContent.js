@@ -13,8 +13,10 @@ export const DisplayContent = (props) => {
         for (let i = 0; i < names.length; i++) {
             outputJSX.push(
                 <>
-                    <h1>{names[i]}</h1>
-                    <img src={images[imageLocations[i].slice(0,-4)]}></img>
+                    <div className="bugContainer">
+                        <h3>{names[i]}</h3>
+                        <img src={images[imageLocations[i].slice(0,-4)]}></img>
+                    </div>
                 </>
             );
           }

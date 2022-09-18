@@ -30,18 +30,21 @@ export const Landing = () => {
                 ladybugFull[bug.name].c = bug.description;
             }            
         });
-        console.log(ladybugFull);
-
+        // console.log(ladybugFull);
+        // console.log("image", ladybugImage);
     }
 
     return (
         <>
-            <h1>Landing Page</h1>
+            <h1>The ladybug Page</h1>
 
+            <div className='grid-container'>
             <DisplayContent
                 names={ladybugNames}
                 imageLocations={ladybugImage}
             />
+            </div>
+
         </>
     );
 }
